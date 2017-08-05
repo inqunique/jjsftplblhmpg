@@ -9,6 +9,7 @@
 .body-content {
     padding: 0;
     margin: 0;
+    width: initial;
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */

@@ -9775,10 +9775,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\K\\Documents\\Visual Studio 2017\\Projects\\PlableHompage\\PlableHompage.csproj",
-      "projectName": "PlableHompage",
-      "projectPath": "C:\\Users\\K\\Documents\\Visual Studio 2017\\Projects\\PlableHompage\\PlableHompage.csproj",
-      "outputPath": "C:\\Users\\K\\Documents\\Visual Studio 2017\\Projects\\PlableHompage\\obj\\",
+      "projectUniqueName": "C:\\Users\\K\\Documents\\jjsftplblhmpg\\PlableHomepage.csproj",
+      "projectName": "PlableHomepage",
+      "projectPath": "C:\\Users\\K\\Documents\\jjsftplblhmpg\\PlableHomepage.csproj",
+      "outputPath": "C:\\Users\\K\\Documents\\jjsftplblhmpg\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
