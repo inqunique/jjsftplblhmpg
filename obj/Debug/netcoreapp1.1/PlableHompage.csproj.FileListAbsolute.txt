@@ -1,0 +1,9 @@
+c:\users\k\documents\visual studio 2017\Projects\PlableHompage\bin\Debug\netcoreapp1.1\PlableHompage.deps.json
+c:\users\k\documents\visual studio 2017\Projects\PlableHompage\bin\Debug\netcoreapp1.1\PlableHompage.runtimeconfig.json
+c:\users\k\documents\visual studio 2017\Projects\PlableHompage\bin\Debug\netcoreapp1.1\PlableHompage.runtimeconfig.dev.json
+c:\users\k\documents\visual studio 2017\Projects\PlableHompage\bin\Debug\netcoreapp1.1\PlableHompage.dll
+c:\users\k\documents\visual studio 2017\Projects\PlableHompage\bin\Debug\netcoreapp1.1\PlableHompage.pdb
+c:\users\k\documents\visual studio 2017\Projects\PlableHompage\obj\Debug\netcoreapp1.1\PlableHompage.csprojResolveAssemblyReference.cache
+c:\users\k\documents\visual studio 2017\Projects\PlableHompage\obj\Debug\netcoreapp1.1\PlableHompage.AssemblyInfo.cs
+c:\users\k\documents\visual studio 2017\Projects\PlableHompage\obj\Debug\netcoreapp1.1\PlableHompage.dll
+c:\users\k\documents\visual studio 2017\Projects\PlableHompage\obj\Debug\netcoreapp1.1\PlableHompage.pdb
