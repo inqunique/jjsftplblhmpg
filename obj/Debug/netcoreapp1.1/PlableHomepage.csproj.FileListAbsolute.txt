@@ -2,8 +2,8 @@ C:\Users\K\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.deps.j
 C:\Users\K\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.runtimeconfig.json
 C:\Users\K\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.runtimeconfig.dev.json
 C:\Users\K\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.dll
-C:\Users\K\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.pdb
 C:\Users\K\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.csprojResolveAssemblyReference.cache
 C:\Users\K\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.AssemblyInfo.cs
+C:\Users\K\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.pdb
 C:\Users\K\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.dll
 C:\Users\K\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.pdb

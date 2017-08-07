@@ -65,13 +65,13 @@ textarea {
     border-radius: 20px;
 }
 
-.navbar-nav > li > a {
-    color: white;
-    text-decoration: none;
-    padding: 3px 20px 3px 20px;
-}
+    .navbar-nav > li > a {
+        color: white;
+        text-decoration: none;
+        padding: 3px 20px 3px 20px;
+    }
 
-hr{
+hr {
     border-top: 1px solid #adadad;
     margin-top: 4em;
     margin-bottom: 2em;
@@ -81,11 +81,11 @@ footer {
     margin-bottom: 5em;
 }
 
-footer > p{
-    text-align: left;
-    color: #7d7d7d;
-    font-size: 12px;
-}
+    footer > p {
+        text-align: left;
+        color: #7d7d7d;
+        font-size: 12px;
+    }
 
 .logo-top {
     padding-top: 1px;
@@ -96,10 +96,10 @@ footer > p{
     top: 20%;
 }
 
-.carousel-caption > img {
-    max-width: 10%;
-    margin-top: 10%;
-}
+    .carousel-caption > img {
+        max-width: 10%;
+        margin-top: 10%;
+    }
 
 .link {
     margin-top: 4em;
