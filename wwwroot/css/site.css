@@ -1,4 +1,8 @@
-﻿body {
+﻿html {
+    overflow-x: hidden;
+}
+
+body {
     padding: 0;
     margin: 0;
     text-align: center;
@@ -54,4 +58,65 @@ textarea {
 
 .navbar-right {
     margin-right: 0;
+}
+
+.navbar-nav > li {
+    background-color: #1E2B58;
+    border-radius: 20px;
+}
+
+.navbar-nav > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 20px 3px 20px;
+}
+
+hr{
+    border-top: 1px solid #adadad;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+footer {
+    margin-bottom: 5em;
+}
+
+footer > p{
+    text-align: left;
+    color: #7d7d7d;
+    font-size: 12px;
+}
+
+.logo-top {
+    padding-top: 1px;
+}
+
+.carousel-caption {
+    text-align: center;
+    top: 20%;
+}
+
+.carousel-caption > img {
+    max-width: 10%;
+    margin-top: 10%;
+}
+
+.link {
+    margin-top: 4em;
+}
+
+.carousel-inner > div > img {
+    margin: auto;
+    max-height: 720px !important;
+    filter: brightness(50%);
+}
+
+.item-link {
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-link > img {
+    border-radius: 20px;
 }
