@@ -40,7 +40,7 @@ namespace PlableHomepage.Controllers
         public IActionResult Contact(MailingModel form)
         {
             var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("plable.homepage", "AWS - PlableHompage"));
+            message.From.Add(new MailboxAddress("plable.homepage", "rubiwind@naver.com"));
             message.To.Add(new MailboxAddress("plable.contact", "rubiwind@naver.com"));
             message.Subject = "Plable Homepage - Contact";
             message.Body = new TextPart("plain")
@@ -50,7 +50,7 @@ namespace PlableHomepage.Controllers
 
             using (var client = new SmtpClient())
             {
-                client.Connect("localhost");
+                client.Connect("localhost", 25);
                 client.Send(message);
                 client.Disconnect(true);
             }
