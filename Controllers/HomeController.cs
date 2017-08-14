@@ -50,7 +50,7 @@ namespace PlableHomepage.Controllers
 
             using (var client = new SmtpClient())
             {
-                client.Connect("localhost", 25);
+                client.Connect("localhost", 25, false);
                 client.Send(message);
                 client.Disconnect(true);
             }
