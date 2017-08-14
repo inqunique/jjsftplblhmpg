@@ -1,28 +1,22 @@
-﻿// Write your Javascript code.
-$('document').ready(function () {
-    //var lang = ;
+﻿$('document').ready(function () {
+    var lang = sessionStorage.getItem("lang");
 
-    //if (lang === null)
-    //    sessionStorage.setItem("lang", "KR");
-    //$('#lang').val(sessionStorage.getItem("lang"));
+    if (lang === null)
+        sessionStorage.setItem("lang", "KR");
 
-    //console.log(lang);
+    $('#lang').val(sessionStorage.getItem("lang"));
+    setLang();
 
-    //$('#lang').on('change', function () {
-    //    sessionStorage.setItem("lang", $('#lang').val());
-    //    console.log(lang);
+    $('#lang').on('change', function () {
+        setLang();
+    });
 
-    //    var paths = window.location.pathname.split('/');
-    //    console.log(paths);
+    function setLang() {
+        sessionStorage.setItem("lang", $('#lang').val());
 
-    //    //if (paths[paths.length - 1] === "" || paths[paths.length - 1] === null) {
-    //    //    window.location.href = sessionStorage.getItem("lang");
-    //    //}
-    //    //else {
-    //    //    paths.push($('#lang').val());
-    //    //    window.location.href = window.location.host + paths.join('/');
-    //    //}
-    //});
+        $("div[class^='lang']").hide();
+        $("div[class^='lang" + sessionStorage.getItem("lang") + "']").show();
+    }
 
     if (location.pathname !== '/')
         $('nav').addClass('navbar-shadow');
@@ -45,34 +39,35 @@ $('document').ready(function () {
         $(this).attr('src', $(this).attr('src').slice(0, -5) + "2.png");
     }).mouseout(function () { $(this).attr('src', $(this).attr('src').slice(0, -5) + "1.png"); });
 
-    $("li[id*='item']").on('click', function () {
-        var id = $(this).attr('id');
-        $("div[id*='description']").hide();
-        switch (id) {
-            case 'item1':
-                $('#description1').show();
-                $('#targetItem').attr('src', "/images/plable_images/item/image/labi3.jpg");
-                break;
+    $(".page-item").on('click', function () {
+        var classNames = $(this).attr('class');
 
-            case 'item2':
-                $('#description2').show();
-                $('#targetItem').attr('src', "/images/plable_images/item/image/plant.png");
-                break;
+        $(".item-description").hide();
 
-            case 'item3':
-                $('#description3').show();
-                $('#targetItem').attr('src', "/images/plable_images/item/image/flawn.png");
-                break;
+        var active = '';
+        var image = '';
+        var className = '';
 
-            default:
-                break;
+        if (classNames.indexOf('page-item-1') !== -1) {
+            active = '.page-item-1';
+            className = '.description1';
+            image = '/images/plable_images/item/image/labi3.jpg';
         }
-        $("li[class~='active']").removeClass('active');
-        $(this).addClass('active');
-    });
+        else if (classNames.indexOf('page-item-2') !== -1) {
+            active = '.page-item-2';
+            className = '.description2';
+            image = '/images/plable_images/item/image/plant.png';
+        }
+        else if (classNames.indexOf('page-item-3') !== -1) {
+            active = '.page-item-3';
+            className = '.description3';
+            image = '/images/plable_images/item/image/flawn.png';
+        }
 
-    //$('#itemCarousel').bind('slide.bs.carousel', function (e) {
-    //    console.log($(this));
-    //    //$('#targetItem').src =
-    //});
+        $(className).show();
+        $('.targetItem').attr('src', image);
+
+        $(".page-item.active").removeClass('active');
+        $(active).addClass('active');
+    });
 });

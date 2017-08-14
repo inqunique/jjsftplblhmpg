@@ -1,4 +1,8 @@
-﻿html {
+﻿.langEN, .langJP {
+    display: none;
+}
+
+html {
     max-width: 100%;
 }
 
@@ -99,11 +103,18 @@ footer {
         text-align: left;
         color: #7d7d7d;
         font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    footer > div {
+        text-align: left;
+        color: #7d7d7d;
+        font-size: 14px;
     }
 
         footer > p > select {
             float: right;
-        }
+        }        
 
 .logo-top {
     padding-top: 1px;
@@ -234,40 +245,47 @@ footer {
     margin-left: 10em;
 }
 
-.items > div > img {
-    max-width: 25%;
-    left: -15%;
-    margin-top: 10%;
-    position: relative;
-    border-radius: 5%;
-    box-shadow: 2px 2px 10px 3px #ddd;
+.items {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 105px;
 }
 
-.items > ol {
-    position: relative;
-    left: 35%;
-    margin-top: 3%;
-}
-
-    .items > ol > li {
-        width: 12px;
-        height: 12px;
-        border-color: #d5d5d5;
-        background-color: #d5d5d5;
+    .items img {
+        max-width: 100%;
     }
 
-    .items > ol > .active {
-        margin: 1px;
-        border-color: #b6b6b6;
-        background-color: #b6b6b6;
+    .items > div:not(.custom-pagination) {
+        display: flex;
+    }
+
+        .items > div:not(.custom-pagination) > div {
+            flex: 1;
+            max-width: 50%;
+            padding: 16px;
+        }
+        
+.custom-pagination {
+    width: 100%;
+    margin: 20px 0;
+}
+
+    .custom-pagination > div {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        margin: 0 5px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, .1);
+        cursor: pointer;
+    }
+
+    .custom-pagination > div.active {
+        background-color: rgba(0, 0, 0, .2);
     }
 
 .item-description {
-    position: absolute;
-    top: 21%;
-    left: 52%;
     text-align: left;
-    max-height: 50%;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -290,12 +308,14 @@ footer {
 .circle {
     width: 8em;
     height: 8em;
-    border-radius: 50%;
+    border-radius: 4em;
     margin-left: 1em;
     margin-right: 0.5em;
     text-align: center;
     color: white;
-    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle-blue {
