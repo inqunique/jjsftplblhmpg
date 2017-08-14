@@ -2,7 +2,64 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="itemCarousel" class="carousel item-carousel slide" data-ride="carousel" data-interval="3000">
+<div class="items">
+    <div>
+        <img id="targetItem" src="~/images/plable_images/item/image/labi3.jpg" />
+        <div id="description1" class="item-description description1">
+            <h4><b>식물 인큐베이팅 스마트 화분</b></h4>
+            <h2>라비농장</h2>
+            <hr width="110%" />
+            <div>
+                라비농장은 자연 교육을 위한 자동 급수, 조명 조절 기능이<br />
+                포함된 소형온실입니다.<br/>
+                전용 화분 카트리지를 넣으면 온실 내부의 센서를 통해서<br />
+                식물에게 필요한 적정량의 물과 빛을 자동으로 공급하여<br />
+                키우기 힘든 환경에서도 식물이 잘 자랄수 있도록 설계한<br />
+                스마트 화분입니다.
+            </div>
+            <div class="item-description-circle">
+                <div class="circle circle-blue"><span>집안에서도 잘<br />키울수있는 스마트<br />온실</span></div>
+                <div class="circle circle-gray"><span>교체형 화분키트를<br />통한 주변 환경오염<br />최소화</span></div>
+                <div class="circle circle-blue"><span>어린아이들이<br />관심하기 가장<br />좋은 형태</span></div>
+            </div>
+        </div>
+        <div id="description2" class="item-description description2">
+            <h4><b>세상을 초록색으로 칠하자</b></h4>
+            <h2>그린트(GRINT)</h2>
+            <hr width="110%" />
+            <div>
+                그린트는 세상을 초록색으로 칠하자라는 슬로건으로 제작된<br />
+                디바이스입니다.<br />
+                사막화 방지를 위한 조림사업은 저개발 국가 지원사업(ODA)의<br />
+                일환으로 추진되며 지구 온난화 방지, 국내로 유입 황사 피해<br />
+                감축을 나무를 통해서 지구 온난화, 국내 황사 피해를 줄이고<br />
+                합니다.
+            </div>
+        </div>
+        <div id="description3" class="item-description description3">
+            <h4><b> </b></h4>
+            <h2>플라운</h2>
+            <hr width="110%" />
+            <div>
+                플라운은 가정에서도 우아하게 식물을 키울 수 있게 해주는<br />
+                왕관 형태의 식물 키우기 보조 도구입니다.<br />
+                낮에는 아름다운 플라운의 조명으로 물을 언제 주는지 알 수<br />
+                있고, 밤에는 아름다운 인테리어 조명으로써 동작합니다.<br />
+                식물 키우기를 더 재미있게, 더 아름답게 라비농장은 자연<br />
+                교육을 위한 자동 급수, 조명 조절 기능이 포함된<br />
+                소형온실입니다.<br />
+            </div>
+        </div>
+    </div>
+    <ol class="carousel-indicators">
+        <li id="item1" class="active"></li>
+        <li id="item2"></li>
+        <li id="item3"></li>
+    </ol>
+</div>
+
+
+@*<div id="itemCarousel" class="carousel item-carousel slide" data-ride="carousel" data-interval="3000">
     <ol class="carousel-indicators">
         <li id="item1" data-target="#itemCarousel" data-slide-to="0" class="active"></li>
         <li id="item2" data-target="#itemCarousel" data-slide-to="1"></li>
@@ -19,4 +76,4 @@
             <img src="~/images/plable_images/item/image/flawn.png" />
         </div>
     </div>
-</div>
+</div>*@
