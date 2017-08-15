@@ -50,6 +50,7 @@ namespace PlableHomepage.Controllers
 
             using (var client = new SmtpClient())
             {
+                client.ServerCertificateValidationCallback = (s, c, h, e) => true;
                 client.Connect("127.0.0.1", 25, false);
                 client.Send(message);
                 client.Disconnect(true);
