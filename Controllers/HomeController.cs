@@ -41,7 +41,7 @@ namespace PlableHomepage.Controllers
         {
             var message = new MimeMessage();
             message.From.Add(new MailboxAddress("plable.homepage", "Homepage@localhost"));
-            message.To.Add(new MailboxAddress("plable.contact", "rubiwind@naver.com"));
+            message.To.Add(new MailboxAddress("plable.contact", "plable.contact@gmail.com"));
             message.Subject = "Plable Homepage - Contact";
             message.Body = new TextPart("plain")
             {
