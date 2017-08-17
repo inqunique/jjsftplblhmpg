@@ -30,7 +30,7 @@ textarea {
 
 /* Carousel */
 .carousel-caption p {
-    font-size: 20px;
+    font-size: 1.5em;
     line-height: 1.4;
 }
 
@@ -102,14 +102,14 @@ footer {
     footer > p {
         text-align: left;
         color: #7d7d7d;
-        font-size: 14px;
+        font-size: 1em;
         margin-bottom: 0;
     }
 
     footer > div {
         text-align: left;
         color: #7d7d7d;
-        font-size: 14px;
+        font-size: 1em;
     }
 
         footer > p > select {
@@ -185,7 +185,7 @@ footer {
 }
 
     .about > span {
-        font-size: 16px;
+        font-size: 1em;
     }
 
 .about-item {
@@ -215,7 +215,7 @@ footer {
     background-color: #1E2B58;
     border-radius: 20px;
     padding: 5px 15px 5px 15px;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 .contact-container {
@@ -291,7 +291,7 @@ footer {
 }
 
     .item-description > div, hr {
-        font-size: 16px;
+        font-size: 1.1em;
         color: #858585;
         margin-top: 2em;
     }
@@ -327,5 +327,5 @@ footer {
 }
 
 .circle > span {
-    font-size: 12px;
+    font-size: 0.85em;
 }
