@@ -7,3 +7,13 @@ C:\Users\K\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.Assemb
 C:\Users\K\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.pdb
 C:\Users\K\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.dll
 C:\Users\K\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.pdb
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.deps.json
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.runtimeconfig.json
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.runtimeconfig.dev.json
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.dll
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\bin\Debug\netcoreapp1.1\PlableHomepage.pdb
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.csprojResolveAssemblyReference.cache
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.csproj.CoreCompileInputs.cache
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.AssemblyInfo.cs
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.dll
+C:\Users\KEON YEONG KIM\Documents\jjsftplblhmpg\obj\Debug\netcoreapp1.1\PlableHomepage.pdb
