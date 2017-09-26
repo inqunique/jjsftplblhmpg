@@ -29,9 +29,14 @@
 
     selectMenu();
 
-    $("a[class~='menu']").mouseover(function () {
+    $('nav li').mouseenter(function () {
+        $(this).find('.menu-detail').slideDown(250);
         $("a[class~='menu-selected']").removeClass('menu-selected');
-    }).mouseout(function () {
+        $(this).find("a.menu").addClass('menu-selected');
+    }).mouseleave(function () {
+        console.log('asdf');
+        $(this).find('.menu-detail').slideUp(250);
+        $("a[class~='menu-selected']").removeClass('menu-selected');
         selectMenu();
     });
 
