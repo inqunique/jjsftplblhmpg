@@ -256,6 +256,7 @@ footer {
     width: 55%;
     margin: 0 auto;
     margin-top: 105px;
+    margin-bottom: 10em;
 }
 
     .items img {
@@ -303,10 +304,6 @@ footer {
         margin-top: 2em;
     }
 
-.description2, .description3 {
-    display: none;
-}
-
 .item-description-circle {
     display: flex;
     text-align: center;
@@ -338,7 +335,7 @@ footer {
 }
 
 .content-title{
-    margin-top:1.5em;
+    margin-top:3em;
     font-size:2.5em;
     color:#1e2b58;
 }
@@ -355,9 +352,16 @@ footer {
 
 .item-title {
     margin-top: 3em;
+    margin-bottom: 0;
     font-size: 2.5em;
     font-weight: 600;
     color: #1e2b58;
+}
+
+.item-detail-description {
+    margin-bottom: 4em;
+    font-size: 1.1em;
+    font-weight: 900;
 }
 
 .menu-detail {
@@ -385,3 +389,49 @@ footer {
             background-color: #a9b7e6;
             color: white;
         }
+
+video{
+    margin-bottom: 5em;
+}
+
+.items-record {
+    display: inline-flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 6em;
+    margin-bottom: 10em;
+}
+
+    .items-record > div {
+        margin: auto;
+    }
+
+        .items-record > div > img {
+            margin: auto;
+        }
+
+.items-record-description-1 {
+    margin-top: 3em;
+}
+
+.items-record-description-2 
+{
+    font-size: 2em;
+}
+
+
+.item-buying-button {
+    width: 8em;
+    height: 2em;
+    border: 1px solid #1E2B58;
+}
+
+    .item-buying-button > span {
+        margin: auto;
+        text-align: center;
+        color: #1E2B58;
+    }
+
+.items-sns-icon > img {
+    padding: 2em;
+}

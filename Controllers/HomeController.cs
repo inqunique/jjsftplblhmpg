@@ -23,7 +23,17 @@ namespace PlableHomepage.Controllers
             return View();
         }
 
-        public IActionResult Item()
+        public IActionResult Rabby()
+        {
+            return View();
+        }
+
+        public IActionResult Grint()
+        {
+            return View();
+        }
+
+        public IActionResult Flawn()
         {
             return View();
         }
