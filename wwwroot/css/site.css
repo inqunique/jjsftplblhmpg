@@ -346,3 +346,42 @@ footer {
 .content-title-underline {
     color: #1e2b58;
 }
+
+.items-history {
+    max-width: 50%;
+    max-height: 50%;
+    margin-bottom: 4em;
+}
+
+.item-title {
+    margin-top: 3em;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #1e2b58;
+}
+
+.menu-detail {
+    background-color: #dadde7;
+    top: 3em;
+    position: absolute;
+    display: none;
+    width: 100%;
+    border-radius: 1em;
+}
+
+    .menu-detail > a {
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+        border-radius: 1em;
+        color: black;
+        max-height: 2em;
+        font-size: .8em;
+    }
+
+        .menu-detail > a:hover {
+            text-decoration: none;
+            background-color: #a9b7e6;
+            color: white;
+        }

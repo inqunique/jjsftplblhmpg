@@ -29,7 +29,14 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="menu" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a class="menu" asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a class="menu" asp-area="" asp-controller="Home" asp-action="Item">Item</a></li>
+                    <li>
+                        <a class="menu" asp-area="" asp-controller="Home" asp-action="Item">Item</a>
+                        <div class="menu-detail">
+                            <a class="menu-detail-item" asp-area="" asp-controller="Home" asp-action="Item">라비농장</a>
+                            <a class="menu-detail-item" asp-area="" asp-controller="Home" asp-action="Item">그린트</a>
+                            <a class="menu-detail-item" asp-area="" asp-controller="Home" asp-action="Item">플라운</a>
+                        </div>
+                    </li>
                     @*<li><a class="menu" asp-area="" asp-controller="Home" asp-action="Solution">Solution</a></li>*@
                     <li><a class="menu" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
