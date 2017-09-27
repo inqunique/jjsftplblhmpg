@@ -44,5 +44,9 @@
     $("img[class*='link']").mouseover(function () {
         $(this).attr('src', $(this).attr('src').slice(0, -5) + "2.png");
     }).mouseout(function () { $(this).attr('src', $(this).attr('src').slice(0, -5) + "1.png"); });
-    
+
 });
+
+function facebook() {
+    location.href = 'https://www.facebook.com/Rabbyfarm/?ref=bookmarks';
+}

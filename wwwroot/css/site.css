@@ -335,7 +335,7 @@ footer {
 }
 
 .content-title{
-    margin-top:3em;
+    margin-top:2.5em;
     font-size:2.5em;
     color:#1e2b58;
 }
@@ -347,7 +347,7 @@ footer {
 .items-history {
     max-width: 50%;
     max-height: 50%;
-    margin-bottom: 4em;
+    margin-bottom: 10em;
 }
 
 .item-title {
@@ -421,18 +421,10 @@ video{
 
 
 .item-buying-button {
-    width: 8em;
-    height: 2em;
-    border: 1px solid #1E2B58;
+    margin-top: 3.5em;
 }
 
-    .item-buying-button > span {
-        margin: auto;
-        text-align: center;
-        color: #1E2B58;
-    }
-
-.items-sns-icon > img {
+.items-sns-icon > input {
     width: 7.5em;
     height: 7.5em;
     padding: 1em;
