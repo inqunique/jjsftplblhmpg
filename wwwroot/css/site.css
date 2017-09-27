@@ -101,7 +101,7 @@ footer {
     max-width: 100%;
     padding-left: 25%;
     padding-right: 25%;
-    margin-top:3em;
+    margin-top: 3em;
     margin-bottom: 5em;
 }
 
@@ -121,7 +121,7 @@ footer {
     footer > p > select {
         float: right;
         color: #7d7d7d;
-    }        
+    }
 
 .logo-top {
     padding-top: 1px;
@@ -272,7 +272,7 @@ footer {
             max-width: 50%;
             padding: 16px;
         }
-        
+
 .custom-pagination {
     width: 100%;
     margin: 20px 0;
@@ -288,9 +288,9 @@ footer {
         cursor: pointer;
     }
 
-    .custom-pagination > div.active {
-        background-color: rgba(0, 0, 0, .2);
-    }
+        .custom-pagination > div.active {
+            background-color: rgba(0, 0, 0, .2);
+        }
 
 .item-description {
     text-align: left;
@@ -334,10 +334,10 @@ footer {
     font-size: 0.85em;
 }
 
-.content-title{
-    margin-top:2.5em;
-    font-size:2.5em;
-    color:#1e2b58;
+.content-title {
+    margin-top: 2.5em;
+    font-size: 2.5em;
+    color: #1e2b58;
 }
 
 .content-title-underline {
@@ -390,7 +390,7 @@ footer {
             color: white;
         }
 
-video{
+video {
     margin-bottom: 5em;
 }
 
@@ -414,11 +414,9 @@ video{
     margin-top: 3em;
 }
 
-.items-record-description-2 
-{
+.items-record-description-2 {
     font-size: 2em;
 }
-
 
 .item-buying-button {
     margin-top: 3.5em;
@@ -428,4 +426,19 @@ video{
     width: 7.5em;
     height: 7.5em;
     padding: 1em;
+}
+
+.rabby-video {
+    max-width: 80%;
+    height: 50em;
+}
+
+.grint-video {
+    max-width: 65%;
+    height: 55em;
+}
+
+.flawn-video {
+    max-width: 65%;
+    height: 55em;
 }
